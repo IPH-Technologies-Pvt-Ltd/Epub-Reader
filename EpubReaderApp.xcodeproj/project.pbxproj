@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025299A22B26E95B0036A556 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 025299982B26E95B0036A556 /* FMDatabaseQueue.m */; };
+		025299A32B26E95B0036A556 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252999B2B26E95B0036A556 /* FMDatabaseAdditions.m */; };
+		025299A42B26E95B0036A556 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252999C2B26E95B0036A556 /* FMDatabase.m */; };
+		025299A52B26E95B0036A556 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 025299A02B26E95B0036A556 /* FMDatabasePool.m */; };
+		025299A62B26E95B0036A556 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 025299A12B26E95B0036A556 /* FMResultSet.m */; };
+		02AF3AED2B21D1BE00786F16 /* When-Totems-Fall.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE42B21D1BE00786F16 /* When-Totems-Fall.epub */; };
+		02AF3AEE2B21D1BE00786F16 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE52B21D1BE00786F16 /* The Adventures Of Sherlock Holmes - Adventure I.epub */; };
+		02AF3AEF2B21D1BE00786F16 /* His-Burning-Desire.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE62B21D1BE00786F16 /* His-Burning-Desire.epub */; };
+		02AF3AF02B21D1BE00786F16 /* Stuck-with-a-Billionaire.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE72B21D1BE00786F16 /* Stuck-with-a-Billionaire.epub */; };
+		02AF3AF12B21D1BE00786F16 /* War-Of-The-Animals-.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE82B21D1BE00786F16 /* War-Of-The-Animals-.epub */; };
+		02AF3AF22B21D1BE00786F16 /* Lady-Tanglewood.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AE92B21D1BE00786F16 /* Lady-Tanglewood.epub */; };
+		02AF3AF32B21D1BE00786F16 /* The-Making-of-a-Matchmaker.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AEA2B21D1BE00786F16 /* The-Making-of-a-Matchmaker.epub */; };
+		02AF3AF42B21D1BE00786F16 /* 20000-Leagues-Under-the-Sea.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AEB2B21D1BE00786F16 /* 20000-Leagues-Under-the-Sea.epub */; };
+		02AF3AF52B21D1BE00786F16 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = 02AF3AEC2B21D1BE00786F16 /* The Silver Chair.epub */; };
+		A2149B8A26DCE60B00F98DAF /* uwch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2149B8826DCE5AE00F98DAF /* uwch.ttf */; };
+		A226F89126D41535004A6F40 /* libskyepub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A226F88E26D414E6004A6F40 /* libskyepub.a */; };
+		A247A18C252BBDB200749F1A /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A247A18B252BBDB200749F1A /* ThumbnailView.swift */; };
+		A27805572530302A00B374C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27805562530302A00B374C5 /* HomeViewController.swift */; };
+		A2780561253084C800B374C5 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2780560253084C800B374C5 /* BookCollectionViewCell.swift */; };
+		A28D7B2F24F8248E00CD0939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D7B2E24F8248E00CD0939 /* AppDelegate.swift */; };
+		A28D7B3124F8248E00CD0939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D7B3024F8248E00CD0939 /* SceneDelegate.swift */; };
+		A28D7B3624F8248E00CD0939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D7B3424F8248E00CD0939 /* Main.storyboard */; };
+		A28D7B3B24F8249100CD0939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28D7B3924F8249100CD0939 /* LaunchScreen.storyboard */; };
+		A28D7B7124F99DE000CD0939 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D7B7024F99DE000CD0939 /* BookViewController.swift */; };
+		A28E59DE278CB8D400A3A4E0 /* Mayflower Antique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A28E59DD278CB8C900A3A4E0 /* Mayflower Antique.ttf */; };
+		A296554125835E3400D6FD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A296554025835E3300D6FD3F /* Assets.xcassets */; };
+		A2B730F3250B52610049C63B /* Books.sql in Resources */ = {isa = PBXBuildFile; fileRef = A2B730EF250B52600049C63B /* Books.sql */; };
+		A2B730F4250B52610049C63B /* custom.css in Resources */ = {isa = PBXBuildFile; fileRef = A2B730F0250B52600049C63B /* custom.css */; };
+		A2B730F5250B52610049C63B /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = A2B730F1250B52610049C63B /* script.js */; };
+		A2B730F6250B52610049C63B /* scriptForFixed.js in Resources */ = {isa = PBXBuildFile; fileRef = A2B730F2250B52610049C63B /* scriptForFixed.js */; };
+		A2B730F8250C4E4C0049C63B /* SkyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B730F7250C4E4C0049C63B /* SkyData.swift */; };
+		A2B7310625146B0F0049C63B /* SearchResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B7310525146B0F0049C63B /* SearchResultView.xib */; };
+		A2B7310825146B2A0049C63B /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7310725146B2A0049C63B /* SearchResultView.swift */; };
+		A2ED33FE2521D0EC0087C98E /* BookmarksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED33FD2521D0EC0087C98E /* BookmarksTableViewCell.swift */; };
+		A2ED34062521D10A0087C98E /* ContentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED34052521D10A0087C98E /* ContentsTableViewCell.swift */; };
+		A2ED340B2521D1330087C98E /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ED340A2521D1330087C98E /* NotesTableViewCell.swift */; };
+		A2F44BD424FF21DC0079F795 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F44BD324FF21DC0079F795 /* Setting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025299972B26E95B0036A556 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		025299982B26E95B0036A556 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		025299992B26E95B0036A556 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		0252999A2B26E95B0036A556 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		0252999B2B26E95B0036A556 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0252999C2B26E95B0036A556 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		0252999D2B26E95B0036A556 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		0252999E2B26E95B0036A556 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		0252999F2B26E95B0036A556 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		025299A02B26E95B0036A556 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		025299A12B26E95B0036A556 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		02AF3AE42B21D1BE00786F16 /* When-Totems-Fall.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "When-Totems-Fall.epub"; sourceTree = "<group>"; };
+		02AF3AE52B21D1BE00786F16 /* The Adventures Of Sherlock Holmes - Adventure I.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Adventures Of Sherlock Holmes - Adventure I.epub"; sourceTree = "<group>"; };
+		02AF3AE62B21D1BE00786F16 /* His-Burning-Desire.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "His-Burning-Desire.epub"; sourceTree = "<group>"; };
+		02AF3AE72B21D1BE00786F16 /* Stuck-with-a-Billionaire.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stuck-with-a-Billionaire.epub"; sourceTree = "<group>"; };
+		02AF3AE82B21D1BE00786F16 /* War-Of-The-Animals-.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "War-Of-The-Animals-.epub"; sourceTree = "<group>"; };
+		02AF3AE92B21D1BE00786F16 /* Lady-Tanglewood.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lady-Tanglewood.epub"; sourceTree = "<group>"; };
+		02AF3AEA2B21D1BE00786F16 /* The-Making-of-a-Matchmaker.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The-Making-of-a-Matchmaker.epub"; sourceTree = "<group>"; };
+		02AF3AEB2B21D1BE00786F16 /* 20000-Leagues-Under-the-Sea.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "20000-Leagues-Under-the-Sea.epub"; sourceTree = "<group>"; };
+		02AF3AEC2B21D1BE00786F16 /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
+		A2149B8826DCE5AE00F98DAF /* uwch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uwch.ttf; sourceTree = "<group>"; };
+		A226F88E26D414E6004A6F40 /* libskyepub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskyepub.a; sourceTree = "<group>"; };
+		A247A18B252BBDB200749F1A /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		A27805562530302A00B374C5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2780560253084C800B374C5 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		A28D7B2B24F8248E00CD0939 /* EpubReaderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpubReaderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28D7B2E24F8248E00CD0939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A28D7B3024F8248E00CD0939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A28D7B3524F8248E00CD0939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28D7B3A24F8249100CD0939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A28D7B3C24F8249100CD0939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28D7B5F24F824CF00CD0939 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		A28D7B6024F824CF00CD0939 /* FixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedViewController.h; sourceTree = "<group>"; };
+		A28D7B6224F824CF00CD0939 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A28D7B6324F824CF00CD0939 /* SkyDRMControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDRMControl.h; sourceTree = "<group>"; };
+		A28D7B6424F824CF00CD0939 /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		A28D7B6524F824CF00CD0939 /* SkyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyProvider.h; sourceTree = "<group>"; };
+		A28D7B6624F824CF00CD0939 /* Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Highlight.h; sourceTree = "<group>"; };
+		A28D7B6724F824CF00CD0939 /* SkyKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyKeyManager.h; sourceTree = "<group>"; };
+		A28D7B6824F824CF00CD0939 /* ContentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentProvider.h; sourceTree = "<group>"; };
+		A28D7B6924F824CF00CD0939 /* BookInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInformation.h; sourceTree = "<group>"; };
+		A28D7B6B24F824F800CD0939 /* SkyEpub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyEpub.h; sourceTree = "<group>"; };
+		A28D7B6C24F826EE00CD0939 /* ReflowableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReflowableViewController.h; sourceTree = "<group>"; };
+		A28D7B7024F99DE000CD0939 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		A28E59DD278CB8C900A3A4E0 /* Mayflower Antique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mayflower Antique.ttf"; sourceTree = "<group>"; };
+		A296554025835E3300D6FD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B730ED250B4DB90049C63B /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		A2B730EF250B52600049C63B /* Books.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Books.sql; sourceTree = "<group>"; };
+		A2B730F0250B52600049C63B /* custom.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
+		A2B730F1250B52610049C63B /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		A2B730F2250B52610049C63B /* scriptForFixed.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scriptForFixed.js; sourceTree = "<group>"; };
+		A2B730F7250C4E4C0049C63B /* SkyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyData.swift; sourceTree = "<group>"; };
+		A2B7310525146B0F0049C63B /* SearchResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultView.xib; sourceTree = "<group>"; };
+		A2B7310725146B2A0049C63B /* SearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		A2EA78AC255BB62800F4A48F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		A2EA78AD255BB62800F4A48F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A2EA78B0255BB64500F4A48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A2ED33FD2521D0EC0087C98E /* BookmarksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksTableViewCell.swift; sourceTree = "<group>"; };
+		A2ED34052521D10A0087C98E /* ContentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewCell.swift; sourceTree = "<group>"; };
+		A2ED340A2521D1330087C98E /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		A2F44BD324FF21DC0079F795 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		A2FEDDAA259D267500E9EC9B /* libskyepub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libskyepub.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28D7B2824F8248E00CD0939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226F89126D41535004A6F40 /* libskyepub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025299962B26E95B0036A556 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				025299972B26E95B0036A556 /* FMDatabase.h */,
+				025299982B26E95B0036A556 /* FMDatabaseQueue.m */,
+				025299992B26E95B0036A556 /* FMResultSet.h */,
+				0252999A2B26E95B0036A556 /* FMDatabasePool.h */,
+				0252999B2B26E95B0036A556 /* FMDatabaseAdditions.m */,
+				0252999C2B26E95B0036A556 /* FMDatabase.m */,
+				0252999D2B26E95B0036A556 /* FMDatabaseQueue.h */,
+				0252999E2B26E95B0036A556 /* FMDB.h */,
+				0252999F2B26E95B0036A556 /* FMDatabaseAdditions.h */,
+				025299A02B26E95B0036A556 /* FMDatabasePool.m */,
+				025299A12B26E95B0036A556 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		02AF3AE02B21CE6800786F16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A296554025835E3300D6FD3F /* Assets.xcassets */,
+				A28D7B2E24F8248E00CD0939 /* AppDelegate.swift */,
+				A28D7B3024F8248E00CD0939 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02AF3AE12B21CEB900786F16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A28D7B3424F8248E00CD0939 /* Main.storyboard */,
+				A28D7B3924F8249100CD0939 /* LaunchScreen.storyboard */,
+				A2B7310525146B0F0049C63B /* SearchResultView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02AF3AE22B21D05600786F16 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				A2B730EE250B52170049C63B /* Scripts */,
+				A2149B8626DCE45800F98DAF /* Fonts */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		A2149B8626DCE45800F98DAF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A28E59DD278CB8C900A3A4E0 /* Mayflower Antique.ttf */,
+				A2149B8826DCE5AE00F98DAF /* uwch.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A28D7B2224F8248E00CD0939 = {
+			isa = PBXGroup;
+			children = (
+				A28D7B5E24F824A800CD0939 /* SkyEpub */,
+				025299962B26E95B0036A556 /* fmdb */,
+				02AF3AE12B21CEB900786F16 /* View */,
+				02AF3AE02B21CE6800786F16 /* Resources */,
+				A28D7B3C24F8249100CD0939 /* Info.plist */,
+				A28D7B2D24F8248E00CD0939 /* Controller */,
+				02AF3AE22B21D05600786F16 /* Others */,
+				A28D7B2C24F8248E00CD0939 /* Products */,
+				A2B730ED250B4DB90049C63B /* Bridge.h */,
+				A28D7B6D24F8302D00CD0939 /* Book */,
+				A2FEDDA9259D267500E9EC9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A28D7B2C24F8248E00CD0939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28D7B2B24F8248E00CD0939 /* EpubReaderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28D7B2D24F8248E00CD0939 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A28D7B7024F99DE000CD0939 /* BookViewController.swift */,
+				A27805562530302A00B374C5 /* HomeViewController.swift */,
+				A2B730F7250C4E4C0049C63B /* SkyData.swift */,
+				A2F44BD324FF21DC0079F795 /* Setting.swift */,
+				A2780560253084C800B374C5 /* BookCollectionViewCell.swift */,
+				A2ED33FD2521D0EC0087C98E /* BookmarksTableViewCell.swift */,
+				A2ED34052521D10A0087C98E /* ContentsTableViewCell.swift */,
+				A2ED340A2521D1330087C98E /* NotesTableViewCell.swift */,
+				A2B7310725146B2A0049C63B /* SearchResultView.swift */,
+				A247A18B252BBDB200749F1A /* ThumbnailView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A28D7B5E24F824A800CD0939 /* SkyEpub */ = {
+			isa = PBXGroup;
+			children = (
+				A226F88E26D414E6004A6F40 /* libskyepub.a */,
+				A28D7B6B24F824F800CD0939 /* SkyEpub.h */,
+				A28D7B6C24F826EE00CD0939 /* ReflowableViewController.h */,
+				A28D7B6024F824CF00CD0939 /* FixedViewController.h */,
+				A28D7B6224F824CF00CD0939 /* Book.h */,
+				A28D7B6924F824CF00CD0939 /* BookInformation.h */,
+				A28D7B6824F824CF00CD0939 /* ContentProvider.h */,
+				A28D7B6624F824CF00CD0939 /* Highlight.h */,
+				A28D7B5F24F824CF00CD0939 /* SearchResult.h */,
+				A28D7B6324F824CF00CD0939 /* SkyDRMControl.h */,
+				A28D7B6724F824CF00CD0939 /* SkyKeyManager.h */,
+				A28D7B6524F824CF00CD0939 /* SkyProvider.h */,
+				A28D7B6424F824CF00CD0939 /* SpeechSynthesizer.h */,
+			);
+			path = SkyEpub;
+			sourceTree = "<group>";
+		};
+		A28D7B6D24F8302D00CD0939 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				02AF3AEB2B21D1BE00786F16 /* 20000-Leagues-Under-the-Sea.epub */,
+				02AF3AE62B21D1BE00786F16 /* His-Burning-Desire.epub */,
+				02AF3AE92B21D1BE00786F16 /* Lady-Tanglewood.epub */,
+				02AF3AE72B21D1BE00786F16 /* Stuck-with-a-Billionaire.epub */,
+				02AF3AE52B21D1BE00786F16 /* The Adventures Of Sherlock Holmes - Adventure I.epub */,
+				02AF3AEC2B21D1BE00786F16 /* The Silver Chair.epub */,
+				02AF3AEA2B21D1BE00786F16 /* The-Making-of-a-Matchmaker.epub */,
+				02AF3AE82B21D1BE00786F16 /* War-Of-The-Animals-.epub */,
+				02AF3AE42B21D1BE00786F16 /* When-Totems-Fall.epub */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		A2B730EE250B52170049C63B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A2B730EF250B52600049C63B /* Books.sql */,
+				A2B730F0250B52600049C63B /* custom.css */,
+				A2B730F1250B52610049C63B /* script.js */,
+				A2B730F2250B52610049C63B /* scriptForFixed.js */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		A2FEDDA9259D267500E9EC9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEDDAA259D267500E9EC9B /* libskyepub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28D7B2A24F8248E00CD0939 /* EpubReaderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28D7B5524F8249100CD0939 /* Build configuration list for PBXNativeTarget "EpubReaderApp" */;
+			buildPhases = (
+				A28D7B2724F8248E00CD0939 /* Sources */,
+				A28D7B2824F8248E00CD0939 /* Frameworks */,
+				A28D7B2924F8248E00CD0939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpubReaderApp;
+			productName = SkyReader;
+			productReference = A28D7B2B24F8248E00CD0939 /* EpubReaderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28D7B2324F8248E00CD0939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					A28D7B2A24F8248E00CD0939 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = A28D7B2624F8248E00CD0939 /* Build configuration list for PBXProject "EpubReaderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = A28D7B2224F8248E00CD0939;
+			productRefGroup = A28D7B2C24F8248E00CD0939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28D7B2A24F8248E00CD0939 /* EpubReaderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28D7B2924F8248E00CD0939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AF3AF32B21D1BE00786F16 /* The-Making-of-a-Matchmaker.epub in Resources */,
+				02AF3AEF2B21D1BE00786F16 /* His-Burning-Desire.epub in Resources */,
+				A2149B8A26DCE60B00F98DAF /* uwch.ttf in Resources */,
+				A2B730F3250B52610049C63B /* Books.sql in Resources */,
+				02AF3AF52B21D1BE00786F16 /* The Silver Chair.epub in Resources */,
+				A296554125835E3400D6FD3F /* Assets.xcassets in Resources */,
+				A28E59DE278CB8D400A3A4E0 /* Mayflower Antique.ttf in Resources */,
+				02AF3AF42B21D1BE00786F16 /* 20000-Leagues-Under-the-Sea.epub in Resources */,
+				A2B730F6250B52610049C63B /* scriptForFixed.js in Resources */,
+				A2B730F5250B52610049C63B /* script.js in Resources */,
+				02AF3AF02B21D1BE00786F16 /* Stuck-with-a-Billionaire.epub in Resources */,
+				02AF3AF22B21D1BE00786F16 /* Lady-Tanglewood.epub in Resources */,
+				A2B730F4250B52610049C63B /* custom.css in Resources */,
+				02AF3AED2B21D1BE00786F16 /* When-Totems-Fall.epub in Resources */,
+				A28D7B3B24F8249100CD0939 /* LaunchScreen.storyboard in Resources */,
+				02AF3AEE2B21D1BE00786F16 /* The Adventures Of Sherlock Holmes - Adventure I.epub in Resources */,
+				A28D7B3624F8248E00CD0939 /* Main.storyboard in Resources */,
+				A2B7310625146B0F0049C63B /* SearchResultView.xib in Resources */,
+				02AF3AF12B21D1BE00786F16 /* War-Of-The-Animals-.epub in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28D7B2724F8248E00CD0939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F44BD424FF21DC0079F795 /* Setting.swift in Sources */,
+				A2ED33FE2521D0EC0087C98E /* BookmarksTableViewCell.swift in Sources */,
+				A2ED340B2521D1330087C98E /* NotesTableViewCell.swift in Sources */,
+				025299A42B26E95B0036A556 /* FMDatabase.m in Sources */,
+				025299A62B26E95B0036A556 /* FMResultSet.m in Sources */,
+				A2B7310825146B2A0049C63B /* SearchResultView.swift in Sources */,
+				025299A22B26E95B0036A556 /* FMDatabaseQueue.m in Sources */,
+				A27805572530302A00B374C5 /* HomeViewController.swift in Sources */,
+				025299A32B26E95B0036A556 /* FMDatabaseAdditions.m in Sources */,
+				A2ED34062521D10A0087C98E /* ContentsTableViewCell.swift in Sources */,
+				A2B730F8250C4E4C0049C63B /* SkyData.swift in Sources */,
+				A28D7B7124F99DE000CD0939 /* BookViewController.swift in Sources */,
+				A247A18C252BBDB200749F1A /* ThumbnailView.swift in Sources */,
+				025299A52B26E95B0036A556 /* FMDatabasePool.m in Sources */,
+				A2780561253084C800B374C5 /* BookCollectionViewCell.swift in Sources */,
+				A28D7B2F24F8248E00CD0939 /* AppDelegate.swift in Sources */,
+				A28D7B3124F8248E00CD0939 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A28D7B3424F8248E00CD0939 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28D7B3524F8248E00CD0939 /* Base */,
+				A2EA78AC255BB62800F4A48F /* ko */,
+				A2EA78B0255BB64500F4A48F /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28D7B3924F8249100CD0939 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28D7B3A24F8249100CD0939 /* Base */,
+				A2EA78AD255BB62800F4A48F /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28D7B5324F8249100CD0939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A28D7B5424F8249100CD0939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28D7B5624F8249100CD0939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkyEpub",
+				);
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EpubReaderApp.Epub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridge.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A28D7B5724F8249100CD0939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SkyEpub",
+				);
+				OTHER_SWIFT_FLAGS = "-Xfrontend";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EpubReaderApp.Epub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Bridge.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28D7B2624F8248E00CD0939 /* Build configuration list for PBXProject "EpubReaderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28D7B5324F8249100CD0939 /* Debug */,
+				A28D7B5424F8249100CD0939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28D7B5524F8249100CD0939 /* Build configuration list for PBXNativeTarget "EpubReaderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28D7B5624F8249100CD0939 /* Debug */,
+				A28D7B5724F8249100CD0939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28D7B2324F8248E00CD0939 /* Project object */;
+}
